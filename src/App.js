@@ -1,14 +1,12 @@
-import { Invoice } from './components/Invoice';
-import { Header } from './sections/Header';
+import { MyRouter } from './router/MyRouter';
+
 
 function App() {
   return (
-    <>
+    <div className="bg-white">
+        <MyRouter/>
         
-        
-        <Invoice idClient={1} idSeller={1} idProduct={1} quantity={3}/>
-        
-    </>
+    </div>
   );
 }
 
